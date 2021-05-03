@@ -45,11 +45,29 @@ function Footer() {
                                 <input class="form-control"  placeholder="Company"/>
                             </div>
                         </div><br/>
+                        <div class="row">
+                            <div class="col-lg-7  col-xs-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Etiam vel orci vel massa accumsan aliquam. Nunc sit amet placerat . Read our terms and conditions
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-xs-12">
+                                <button type="button" class="btn btn-outline-secondary">SUBSCRIBE</button>
+                            </div>
+                        </div><br/>
                     </div>
                     <div class="col-lg-5 col-xs-12">
                         <h3>Twitter feed</h3>
                         <img class="rounded-circle" src="/assets/img/logo.png" alt="Logo"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis molestie est a ultrices. Proin elementum, lorem et dignissim tempus, ligula arcu pellentesque sapien, a imperdiet ex velit at urna. Quisque ac nisi turpis. Fusce ultricies elit quis dui vulputate, eu maximus enim molestie.</p>
+                    </div>
+                </div>      
+                <div class="row">
+                    <div class="col">
+                        ABN 123 456 789  |   © 2020 LOGO  |  Privacy and data collection
                     </div>
                 </div>
             </div>
