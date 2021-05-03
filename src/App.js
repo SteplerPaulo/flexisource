@@ -8,7 +8,7 @@ import InternationalNetwork from "./components/InternationalNetwork.js"
 import Accordion from "./components/Accordion.js"
 function App() {
   return (
-    <div class="container-fluid">
+    <div className="container-fluid">
       <NavBar/>
       <Header/>
       <Details/>
