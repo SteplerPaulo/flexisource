@@ -100,3 +100,34 @@ body {
   padding: 30px 10px 30px 10px;
   margin-bottom: 4%;
 }
+
+.accordion{
+  font-family: Montserrat;
+  font-style: normal;
+  margin-bottom: 4%;
+}
+
+.accordion .pre-header{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #0D0D0D;
+}
+.accordion .main-header{
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 125%;
+}
+
+.accordion-button {
+  display:inline;
+}
+.accordion-button:focus {
+  border-color: #252932;
+  box-shadow: 0 0 0 0.25rem rgb(37 41 50 / 24%);
+}
+.accordion-button:not(.collapsed) {
+  color: #363636;
+  background-color: #F3F3F3;
+}
