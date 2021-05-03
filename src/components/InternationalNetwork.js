@@ -5,7 +5,7 @@ function InternationalNetwork() {
         <React.Fragment>
             <div class="international-network">
                 <div class="row">
-                    <div class="col-lg-7 col-xs-12">
+                    <div class="col-lg-5 offset-lg-2 col-xs-12">
                         <h1>International Network</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis molestie est a ultrices.
                         Fusce ultricies elit quis dui vulputate, eu maximus enim molestie. Suspendisse potenti. Ut sit amet urna massa.

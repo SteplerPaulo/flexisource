@@ -37,6 +37,7 @@ body {
   font-size: 16px;
   line-height: 130%;
   color: #0D0D0D;
+  padding: 30px 10px 30px 10px;
   margin-bottom: 4%;
 }
 
@@ -96,6 +97,6 @@ body {
 .international-network{
   background: #F3F3F3;
   color: #363636;
-  padding: 36px 200px 30px 200px;
+  padding: 30px 10px 30px 10px;
   margin-bottom: 4%;
 }
