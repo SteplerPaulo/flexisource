@@ -18,7 +18,7 @@ body {
   border-radius: 0;
   margin-bottom: 4%;
   color: #FFFFFF;
-  padding: 40px 5px 32px 38px;
+  padding: 36px 30px 30px 36px;
 }
 
 .header .card-title{
@@ -87,5 +87,5 @@ body {
 .footer{
   background: #252932;
   color: #FFFFFF;
-  padding: 40px 5px 32px 38px;
+  padding: 36px 30px 30px 36px;
 }

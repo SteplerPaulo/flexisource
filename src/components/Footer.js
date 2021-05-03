@@ -5,10 +5,10 @@ function Footer() {
         <React.Fragment>
             <div class="footer">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-lg-5 col-xs-12">
                         We acknowledge the Traditional Owners of country throughout Australia and recognise their continuing connection to land, waters and culture. We pay our respects to their Elders past, present and emerging.
                     </div>
-                    <div class="col offset-2">
+                    <div class="col-lg-auto offset-lg-2 col-xs-12">
                         <address>
 							<strong>Telephone</strong> 	<a href="tel:123-456-7890">+61 3 9123 4561</a>
 						</address>	
@@ -23,7 +23,7 @@ function Footer() {
                     </div>
                 </div><hr/>
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-lg-7 col-xs-12">
                         <h3>Stay up to date</h3>
                         <p>Subscribe to get the latest news and insights from our weekly update and research releases.</p>
                         
@@ -44,11 +44,9 @@ function Footer() {
                             <div class="col">
                                 <input class="form-control"  placeholder="Company"/>
                             </div>
-                        </div>
-                   
-                   
+                        </div><br/>
                     </div>
-                    <div class="col offset-2">
+                    <div class="col-lg-5 col-xs-12">
                         <h3>Twitter feed</h3>
                         <img class="rounded-circle" src="/assets/img/logo.png" alt="Logo"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis molestie est a ultrices. Proin elementum, lorem et dignissim tempus, ligula arcu pellentesque sapien, a imperdiet ex velit at urna. Quisque ac nisi turpis. Fusce ultricies elit quis dui vulputate, eu maximus enim molestie.</p>
