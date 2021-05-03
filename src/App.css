@@ -98,6 +98,17 @@ body {
   color: #FFFFFF;
 }
 
+.footer input[type="text"],.footer input[type="email"]{
+  border: 0;
+  border-bottom: 1px solid #FFFFFF;
+  background-color: #252932;
+  border-radius:0;
+}
+
+.footer input[type="text"]:focus,.footer input[type="email"]:focus{
+  background-color: #FFFFFF;
+}
+
 .international-network{
   background: #F3F3F3;
   color: #363636;

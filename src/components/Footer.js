@@ -29,10 +29,10 @@ function Footer() {
                         
                         <div className="row">
                             <div className="col">
-                                <input className="form-control"  placeholder="First Name*"/>
+                                <input type="text" className="form-control"  placeholder="First Name*"/>
                             </div>
                             <div className="col">
-                                <input className="form-control"  placeholder="Last Name*"/>
+                                <input type="text" className="form-control"  placeholder="Last Name*"/>
                             </div>
                         </div><br/>
                         <div className="row">
@@ -42,7 +42,7 @@ function Footer() {
                         </div><br/>
                         <div className="row">
                             <div className="col">
-                                <input className="form-control"  placeholder="Company"/>
+                                <input type="text" className="form-control"  placeholder="Company"/>
                             </div>
                         </div><br/>
                         <div className="row">
@@ -66,10 +66,10 @@ function Footer() {
                     </div>
                 </div>      
                 <div className="row">
-                    <div className="col-lg-7 col-xs-12 order-1">
+                    <div className="col-lg-7 col-xs-12 order-xs-2">
                         ABN 123 456 789  |   © 2020 LOGO  |  Privacy and data collection
                     </div>
-                    <div className="col-lg-auto col-xs-12">
+                    <div className="col-lg-auto col-xs-12 order-xs-1">
                         <div className="row">
                             <div className="col"><i className="fa fa-facebook"></i></div>
                             <div className="col"><i className="fa fa-twitter"></i></div>
