@@ -18,7 +18,7 @@ body {
   border-radius: 0;
   margin-bottom: 4%;
   color: #FFFFFF;
-  padding: 36px 30px 30px 36px;
+  padding: 30px 36px 30px 36px;
 }
 
 .header .card-title{
@@ -87,5 +87,12 @@ body {
 .footer{
   background: #252932;
   color: #FFFFFF;
-  padding: 36px 30px 30px 36px;
+  padding: 30px 36px 30px 36px;
+}
+
+.international-network{
+  background: #F3F3F3;
+  color: #363636;
+  padding: 36px 100px 30px 100px;
+  margin-bottom: 4%;
 }
