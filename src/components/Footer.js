@@ -66,16 +66,16 @@ function Footer() {
                     </div>
                 </div>      
                 <div className="row">
-                    <div className="col-7">
+                    <div className="col-lg-7 col-xs-12 order-1">
                         ABN 123 456 789  |   © 2020 LOGO  |  Privacy and data collection
                     </div>
-                    <div className="col">
-                        <div class="row">
-                            <div class="col"><i className="fa fa-facebook"></i></div>
-                            <div class="col"><i className="fa fa-twitter"></i></div>
-                            <div class="col"><i className="fa fa-linkedin"></i></div>
-                            <div class="col"><i className="fa fa-instagram"></i></div>
-                            <div class="col"><i className="fa fa-youtube"></i></div>
+                    <div className="col-lg-auto col-xs-12">
+                        <div className="row">
+                            <div className="col"><i className="fa fa-facebook"></i></div>
+                            <div className="col"><i className="fa fa-twitter"></i></div>
+                            <div className="col"><i className="fa fa-linkedin"></i></div>
+                            <div className="col"><i className="fa fa-instagram"></i></div>
+                            <div className="col"><i className="fa fa-youtube"></i></div>
                         </div>
                     </div>
                 </div>
