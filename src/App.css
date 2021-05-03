@@ -1,38 +1,91 @@
-.App {
+body {
+  margin: 0;
+  font-family: '@font-face/Montserrat',
+}
+
+
+
+.navbar{
+  height: 92px;
+  border-radius: 0px;
+  border-bottom: 1px solid #E11837;
+  padding-bottom: 10px;
+  margin-bottom: 3%;
+}
+
+.header{
+  background: linear-gradient(225.1deg, #252932 29.16%, #050D1D 91.21%);
+  border-radius: 0;
+  margin-bottom: 4%;
+  color: #FFFFFF;
+  padding: 40px 5px 32px 38px;
+}
+
+.header .card-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 8.5px;
+  text-transform: uppercase;
+}
+
+.details{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130%;
+  color: #0D0D0D;
+  margin-bottom: 4%;
+}
+
+.carousel{
+  font-family: Montserrat;
+  background: #E11837;
+  color: #FFFFFF;
+  margin-bottom: 4%;
+}
+
+.carousel .card-pre-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.carousel .card-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 120%;
+  letter-spacing: 0.12px;
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom:6px;
+}
+
+.carousel .btn{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.carousel .btn:hover{
+  color: #E11837;
+  background-color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  background: #252932;
+  color: #FFFFFF;
+  padding: 40px 5px 32px 38px;
 }
