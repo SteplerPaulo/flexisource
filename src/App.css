@@ -41,7 +41,6 @@ body {
 }
 
 .carousel{
-  padding: 36px 150px 30px 150px;
   margin-bottom: 4%;
 }
 
@@ -49,6 +48,7 @@ body {
   font-family: Montserrat;
   background: #E11837;
   color: #FFFFFF;
+  padding: 10px 10px 10px 10px;
 }
 
 .carousel .card-pre-title{
