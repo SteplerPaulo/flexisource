@@ -33,7 +33,6 @@ body {
 
 .details{
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 130%;
@@ -42,10 +41,14 @@ body {
 }
 
 .carousel{
+  padding: 36px 150px 30px 150px;
+  margin-bottom: 4%;
+}
+
+.carousel .card{
   font-family: Montserrat;
   background: #E11837;
   color: #FFFFFF;
-  margin-bottom: 4%;
 }
 
 .carousel .card-pre-title{
@@ -93,6 +96,6 @@ body {
 .international-network{
   background: #F3F3F3;
   color: #363636;
-  padding: 36px 100px 30px 100px;
+  padding: 36px 200px 30px 200px;
   margin-bottom: 4%;
 }
